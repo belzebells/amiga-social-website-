@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amiga Social - Meu Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard-style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>AMIGA SOCIAL</h1>
+                </div>
+                <div class="user-info">
+                    <span class="welcome">Olá, Maria!</span>
+                    <div class="user-menu">
+                        <button class="user-btn" id="userMenuBtn">
+                            <div class="user-avatar">M</div>
+                            <span>▼</span>
+                        </button>
+                        <div class="user-dropdown" id="userDropdown">
+                            <a href="#perfil">Meu Perfil</a>
+                            <a href="#configuracoes">Configurações</a>
+                            <a href="index.html">Sair</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Dashboard -->
+    <main class="dashboard">
+        <div class="container">
+            <!-- Welcome Section -->
+            <div class="welcome-section">
+                <h2>Bem-vinda ao seu portal, Maria!</h2>
+                <p>Aqui você encontra todos os serviços e suporte da Amiga Social</p>
+            </div>
+
+            <!-- Dashboard Grid -->
+            <div class="dashboard-grid">
+                <!-- Contact Section -->
+                <div class="card contact-card">
+                    <div class="card-header">
+                        <h3>👥 Contato</h3>
+                        <span class="subtitle">Equipe de Referência</span>
+                    </div>
+                    <div class="contact-info">
+                        <div class="technician">
+                            <div class="tech-photo">
+                                <img src="/placeholder.svg?height=80&width=80" alt="Foto da Técnica">
+                            </div>
+                            <div class="tech-details">
+                                <h4>Ana Paula Silva</h4>
+                                <p>Assistente Social</p>
+                                <p>📞 (11) 9999-9999</p>
+                                <p>📧 ana.silva@amigasocial.com</p>
+                            </div>
+                        </div>
+                        <button class="btn-contact">Entrar em Contato</button>
+                    </div>
+                </div>
+
+                <!-- My Records Section -->
+                <div class="card records-card">
+                    <div class="card-header">
+                        <h3>📋 Meu Prontuário</h3>
+                    </div>
+                    <div class="records-content">
+                        <div class="record-item">
+                            <span class="record-icon">📄</span>
+                            <div>
+                                <h4>Histórico de Atendimentos</h4>
+                                <p>Visualize seus atendimentos anteriores</p>
+                            </div>
+                        </div>
+                        <div class="record-item">
+                            <span class="record-icon">📊</span>
+                            <div>
+                                <h4>Relatórios</h4>
+                                <p>Acompanhe seu progresso</p>
+                            </div>
+                        </div>
+                        <button class="btn-records">Ver Prontuário Completo</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Access Section -->
+            <div class="quick-access-section">
+                <h3>🚀 Acesso Rápido</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🧠</div>
+                        <h4>Assistência Psicológica</h4>
+                        <p>Suporte emocional e psicológico especializado</p>
+                        <button class="btn-service">Acessar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">⚖️</div>
+                        <h4>Assistência Jurídica</h4>
+                        <p>Orientação e suporte legal para suas necessidades</p>
+                        <button class="btn-service">Acessar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">💬</div>
+                        <h4>Falar com a Amiga</h4>
+                        <p>Chat direto com nossa equipe de suporte</p>
+                        <button class="btn-service">Conversar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">📅</div>
+                        <h4>Agendar Consulta</h4>
+                        <p>Marque seu próximo atendimento</p>
+                        <button class="btn-service">Agendar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">📚</div>
+                        <h4>Recursos Educativos</h4>
+                        <p>Materiais e cursos para seu desenvolvimento</p>
+                        <button class="btn-service">Explorar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🏥</div>
+                        <h4>Emergência</h4>
+                        <p>Suporte imediato para situações urgentes</p>
+                        <button class="btn-service emergency">Ajuda Urgente</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Activity -->
+            <div class="activity-section">
+                <h3>📈 Atividade Recente</h3>
+                <div class="activity-list">
+                    <div class="activity-item">
+                        <div class="activity-icon">✅</div>
+                        <div class="activity-content">
+                            <h4>Consulta Psicológica Realizada</h4>
+                            <p>15 de junho, 2024 - 14:00</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-icon">📞</div>
+                        <div class="activity-content">
+                            <h4>Contato com Equipe de Referência</h4>
+                            <p>12 de junho, 2024 - 10:30</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-icon">📋</div>
+                        <div class="activity-content">
+                            <h4>Atualização de Prontuário</h4>
+                            <p>10 de junho, 2024 - 16:45</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="dashboard-script.js"></script>
+</body>
+</html>
